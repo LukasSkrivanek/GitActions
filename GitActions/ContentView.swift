@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var title: String = "Hello world:"
     var body: some View {
         VStack {
             ScrollView {
@@ -16,7 +17,7 @@ struct ContentView: View {
                         Image(systemName: "globe")
                             .imageScale(.large)
                             .foregroundStyle(.tint)
-                        Text("Swiftul!!!")
+                        Text(title)
                         Button("Action") {
                             
                         }
