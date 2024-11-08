@@ -10,16 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "house.fill")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("Swiftul Thinking")
+            Text("Some new title!")
             
             Button {
                 
             } label: {
-                Text("Subscribe now")
+                Text("Click me")
             }
 
         }
