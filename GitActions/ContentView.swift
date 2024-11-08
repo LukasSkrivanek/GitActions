@@ -14,17 +14,18 @@ struct ContentView: View {
                 VStack {
                     ForEach(0..<20) { _ in
                         Image(systemName: "house.fill")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Some new title!")
-            
-            Button {
-                
-            } label: {
-                Text("Click me")
-            }
+                            .imageScale(.large)
+                            .foregroundStyle(.tint)
+                        Text("Some new title!")
+                        
+                        Button {
+                            
+                        } label: {
+                            Text("Click me")
+                        }
                     }
                 }
+            }
             
         }
         .padding()
