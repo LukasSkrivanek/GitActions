@@ -21,7 +21,7 @@ struct ContentView: View {
                         Button {
                             
                         } label: {
-                            Text("Click me")
+                            Text("Subscribe now")
                         }
                     }
                 }
