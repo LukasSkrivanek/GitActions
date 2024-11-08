@@ -24,7 +24,7 @@ struct ContentView: View {
                         Button {
                             
                         } label: {
-                            Text("Do now")
+                            Text("Do it later")
                         }
                     }
                 }
