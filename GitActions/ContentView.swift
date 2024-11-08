@@ -17,7 +17,7 @@ struct ContentView: View {
                         Image(systemName: "globe")
                             .imageScale(.large)
                             .foregroundStyle(.tint)
-                        Text("Swiftul!!!")
+                        Text("Sub me!!!")
                         Button("Action") {
                             
                         }
