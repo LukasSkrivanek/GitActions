@@ -17,14 +17,14 @@ struct ContentView: View {
                         Image(systemName: "globe")
                             .imageScale(.large)
                             .foregroundStyle(.tint)
-                        Text("Swiftul!!!")
-                        Button("Action") {
+                        Text("Sub me!!!")
+                        Button("Action yu ") {
                             
                         }
                         Button {
                             
                         } label: {
-                            Text("Do now")
+                            Text("Do it later")
                         }
                     }
                 }
